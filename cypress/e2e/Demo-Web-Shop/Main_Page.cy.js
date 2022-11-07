@@ -48,7 +48,7 @@ describe('Visit the Demo Web Shop application', () => {
         cy.get('form > .buttons > .button-1').click();
         cy.get('.ico-logout').click()
         
-        //Assert
+        //Asserts
         cy.get('.ico-register').should('be.visible')
     })
 })
